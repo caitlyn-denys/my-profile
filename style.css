@@ -1,0 +1,65 @@
+h1 {
+	font-family: 'Raleway', sans-serif;
+	color: rgb(45, 45, 45);
+	letter-spacing: 2px;
+	font-size: 40px;
+}
+
+h2 {
+	font-family: 'Montserrat', sans-serif;
+	color: #505BDA; 
+	letter-spacing: 3px;
+	font-size: 30px
+	font-weight: 200;
+}
+
+body {
+
+	background-color: rgb(230, 230, 230);
+	color: rgb(30, 30, 30);
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+}
+
+.container {
+width: 700px;
+margin: 40px auto;
+}
+
+.card-white {
+	box-shadow: 0 10px 30px rgba(0,0,0,.1);
+	border: 2px dotted grey;
+	background-color: white;
+	text-align: center;
+	border-radius: 5px;
+	margin: 20px;
+	padding: 30px;
+}
+
+#Caitlyn {
+	border-radius: 50%;
+	width: 300px;
+	height: 350px;
+}
+
+#kombucha, #adventure, #Kai {
+	border-radius: 5%;
+	width: 500px;
+	height: 400px;
+}
+
+#Kai {
+	transform: rotate(180deg); 
+}
+
+a:link, a:visited {
+  background-color: #F2D6EB;
+  color: white;
+  padding: 15px 25px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: #F7E8F6;
+}
